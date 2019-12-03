@@ -36,11 +36,11 @@ app.post("/addname", (req, res) => {
 
 
 app.get('/', function(request, response){
-    response.sendFile(__dirname+'/views/formView.html')
+    response.sendFile(__dirname+'/formView.html')
 })
 
 app.get('/submit', function(request, response){
-    response.sendFile(__dirname+'/views/singleView.html')
+    response.sendFile(__dirname+'/singleView.html')
 })
 
 
